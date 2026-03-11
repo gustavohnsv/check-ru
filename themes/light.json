@@ -1,0 +1,16 @@
+{
+  "name": "Light",
+  "background": "#FFFFFF",
+  "foreground": "#000000",
+  "primary": "#0000FF",
+  "secondary": "#888888",
+  "highlight": "#FF0000",
+  "error": "#FF0000",
+  "label_opcoes": "#888800",
+  "label_guarnicao": "#AA0000",
+  "label_pvt": "#00AA00",
+  "label_acompanhamento": "#0000AA",
+  "label_salada": "#444444",
+  "label_sobremesa": "#AA00AA",
+  "label_outros": "#666666"
+}

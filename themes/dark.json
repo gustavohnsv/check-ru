@@ -1,0 +1,16 @@
+{
+  "name": "Dark",
+  "background": "#000000",
+  "foreground": "#FFFFFF",
+  "primary": "#00FFFF",
+  "secondary": "#444444",
+  "highlight": "#FF00FF",
+  "error": "#FF0000",
+  "label_opcoes": "#FFFF00",
+  "label_guarnicao": "#FF5555",
+  "label_pvt": "#55FF55",
+  "label_acompanhamento": "#5555FF",
+  "label_salada": "#00FF00",
+  "label_sobremesa": "#FF55FF",
+  "label_outros": "#AAAAAA"
+}

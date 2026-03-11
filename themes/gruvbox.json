@@ -1,0 +1,16 @@
+{
+  "name": "Gruvbox",
+  "background": "#282828",
+  "foreground": "#EBDBB2",
+  "primary": "#D79921",
+  "secondary": "#928374",
+  "highlight": "#B8BB26",
+  "error": "#FB4934",
+  "label_opcoes": "#FABD2F",
+  "label_guarnicao": "#FE8019",
+  "label_pvt": "#83A598",
+  "label_acompanhamento": "#458588",
+  "label_salada": "#98971A",
+  "label_sobremesa": "#D3869B",
+  "label_outros": "#3C3836"
+}

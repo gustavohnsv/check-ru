@@ -1,0 +1,16 @@
+{
+  "name": "Dracula",
+  "background": "#282A36",
+  "foreground": "#F8F8F2",
+  "primary": "#BD93F9",
+  "secondary": "#6272A4",
+  "highlight": "#50FA7B",
+  "error": "#FF5555",
+  "label_opcoes": "#F1FA8C",
+  "label_guarnicao": "#FFB86C",
+  "label_pvt": "#FF79C6",
+  "label_acompanhamento": "#8BE9FD",
+  "label_salada": "#50FA7B",
+  "label_sobremesa": "#FF79C6",
+  "label_outros": "#44475A"
+}

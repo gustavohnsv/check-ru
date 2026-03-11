@@ -1,0 +1,16 @@
+{
+  "name": "Nord",
+  "background": "#2E3440",
+  "foreground": "#ECEFF4",
+  "primary": "#88C0D0",
+  "secondary": "#4C566A",
+  "highlight": "#A3BE8C",
+  "error": "#BF616A",
+  "label_opcoes": "#EBCB8B",
+  "label_guarnicao": "#D08770",
+  "label_pvt": "#B48EAD",
+  "label_acompanhamento": "#81A1C1",
+  "label_salada": "#A3BE8C",
+  "label_sobremesa": "#B48EAD",
+  "label_outros": "#434C5E"
+}

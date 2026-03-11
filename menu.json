@@ -1,0 +1,205 @@
+{
+  "restaurant_name": "EACH - São Paulo",
+  "days": [
+    {
+      "date": "09/03",
+      "weekday": 1,
+      "almoco": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Hambúrguer à pizzaiolo",
+        "guarnicao_pvt": "PVT com couve e alho-poró",
+        "acompanhamento": "Brócolis ao alho",
+        "salada": "Salada de beterraba ralada",
+        "sobremesa": "Laranja",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 855,
+        "meal_type": "A"
+      },
+      "jantar": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Fricassé de frango com batata palha",
+        "guarnicao_pvt": "Estrogonofe de PVT",
+        "acompanhamento": "Escarola refogada",
+        "salada": "Salada de pepino",
+        "sobremesa": "Doce de abóbora",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 845,
+        "meal_type": "J"
+      }
+    },
+    {
+      "date": "10/03",
+      "weekday": 2,
+      "almoco": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Sobrecoxa de frango assada",
+        "guarnicao_pvt": "Charuto de PVT ao sugo",
+        "acompanhamento": "Purê de batata",
+        "salada": "Salada de Acelga",
+        "sobremesa": "Gelatina de limão",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 810,
+        "meal_type": "A"
+      },
+      "jantar": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Linguiça com molho vinagrete",
+        "guarnicao_pvt": "Lentilha com molho vinagrete",
+        "acompanhamento": "Virado de cenoura",
+        "salada": "Salada de almeirão",
+        "sobremesa": "Laranja",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 905,
+        "meal_type": "J"
+      }
+    },
+    {
+      "date": "11/03",
+      "weekday": 3,
+      "almoco": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Bife de panela",
+        "guarnicao_pvt": "Omelete com queijo e batata",
+        "acompanhamento": "Chuchu com vagem",
+        "salada": "Salada de Repolho",
+        "sobremesa": "Mexerica",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 845,
+        "meal_type": "A"
+      },
+      "jantar": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Filé de coxa de frango com molho caipira",
+        "guarnicao_pvt": "Hambúrguer de feijão branco com molho caipira",
+        "acompanhamento": "Macarrão ao sugo",
+        "salada": "Salada de alface",
+        "sobremesa": "Pudim romeu e julieta",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 900,
+        "meal_type": "J"
+      }
+    },
+    {
+      "date": "12/03",
+      "weekday": 4,
+      "almoco": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Filé de peito de frango com molho de azeitona verde",
+        "guarnicao_pvt": "Soja com molho vinagrete",
+        "acompanhamento": "Couve-flor sauté",
+        "salada": "Salada de tomate",
+        "sobremesa": "Biscoito de chocolate",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 880,
+        "meal_type": "A"
+      },
+      "jantar": {
+        "opcoes": [
+          "Arroz",
+          "feijão",
+          "arroz integral"
+        ],
+        "guarnicao": "Cupim com molho de ervas",
+        "guarnicao_pvt": "PVT com mandioquinha",
+        "acompanhamento": "Cenoura com ervilha",
+        "salada": "Salada de rúcula",
+        "sobremesa": "Maçã",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 905,
+        "meal_type": "J"
+      }
+    },
+    {
+      "date": "13/03",
+      "weekday": 5,
+      "almoco": {
+        "opcoes": [
+          "Arroz",
+          "feijão preto",
+          "arroz integral"
+        ],
+        "guarnicao": "Carne em cubos",
+        "guarnicao_pvt": "Bobó vegetariano",
+        "acompanhamento": "Berinjela com passas e tomate",
+        "salada": "Salada de alface",
+        "sobremesa": "Banana",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 885,
+        "meal_type": "A"
+      },
+      "jantar": {
+        "opcoes": [
+          "Arroz",
+          "feijão preto",
+          "arroz integral"
+        ],
+        "guarnicao": "Copa lombo com molho de limão",
+        "guarnicao_pvt": "Bolinho de PVT",
+        "acompanhamento": "Batata rústica",
+        "salada": "Salada de agrião",
+        "sobremesa": "Cocada branca",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 895,
+        "meal_type": "J"
+      }
+    }
+  ]
+}
