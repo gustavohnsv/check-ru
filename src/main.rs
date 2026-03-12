@@ -96,7 +96,7 @@ impl App {
             })
             .unwrap_or(0);
 
-        let mut app = App {
+        let app = App {
             menu_data,
             all_themes,
             current_theme_idx,

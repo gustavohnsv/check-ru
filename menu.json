@@ -1,5 +1,5 @@
 {
-  "restaurant_name": "EACH - São Paulo",
+  "restaurant_name": "EACH (São Paulo - Leste)",
   "days": [
     {
       "date": "09/03",
@@ -7,37 +7,37 @@
       "almoco": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Hambúrguer à pizzaiolo",
-        "guarnicao_pvt": "PVT com couve e alho-poró",
-        "acompanhamento": "Brócolis ao alho",
-        "salada": "Salada de beterraba ralada",
-        "sobremesa": "Laranja",
+        "guarnicao": "Bife com molho roti",
+        "guarnicao_pvt": "Grão-de-bico à primavera",
+        "acompanhamento": "Mandioca sauté",
+        "salada": "Salada de acelga",
+        "sobremesa": "Maçã",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 855,
+        "calories": 850,
         "meal_type": "A"
       },
       "jantar": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Fricassé de frango com batata palha",
-        "guarnicao_pvt": "Estrogonofe de PVT",
-        "acompanhamento": "Escarola refogada",
-        "salada": "Salada de pepino",
-        "sobremesa": "Doce de abóbora",
+        "guarnicao": "Fricassé de frango",
+        "guarnicao_pvt": "Fricassé de PVT",
+        "acompanhamento": "Brócolis refogado",
+        "salada": "Salada de almeirão",
+        "sobremesa": "Cocada",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 845,
+        "calories": 910,
         "meal_type": "J"
       }
     },
@@ -47,37 +47,37 @@
       "almoco": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Sobrecoxa de frango assada",
-        "guarnicao_pvt": "Charuto de PVT ao sugo",
-        "acompanhamento": "Purê de batata",
-        "salada": "Salada de Acelga",
-        "sobremesa": "Gelatina de limão",
+        "guarnicao": "Filé de coxa de frango com molho de pimentões",
+        "guarnicao_pvt": "PVT com alho-poró",
+        "acompanhamento": "Abobora  refogada",
+        "salada": "Salada de escarola",
+        "sobremesa": "Gelatina",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 810,
+        "calories": 870,
         "meal_type": "A"
       },
       "jantar": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Linguiça com molho vinagrete",
-        "guarnicao_pvt": "Lentilha com molho vinagrete",
-        "acompanhamento": "Virado de cenoura",
-        "salada": "Salada de almeirão",
+        "guarnicao": "Lagarto com molho de cogumelos",
+        "guarnicao_pvt": "Lentilha com cogumelo",
+        "acompanhamento": "Berinjela napolitana",
+        "salada": "Salada de repolho bicolor",
         "sobremesa": "Laranja",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 905,
+        "calories": 930,
         "meal_type": "J"
       }
     },
@@ -87,37 +87,37 @@
       "almoco": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão preto"
         ],
-        "guarnicao": "Bife de panela",
-        "guarnicao_pvt": "Omelete com queijo e batata",
-        "acompanhamento": "Chuchu com vagem",
-        "salada": "Salada de Repolho",
-        "sobremesa": "Mexerica",
-        "outros": [
-          "Minipão",
-          "refresco"
-        ],
-        "calories": 845,
-        "meal_type": "A"
-      },
-      "jantar": {
-        "opcoes": [
-          "Arroz",
-          "feijão",
-          "arroz integral"
-        ],
-        "guarnicao": "Filé de coxa de frango com molho caipira",
-        "guarnicao_pvt": "Hambúrguer de feijão branco com molho caipira",
-        "acompanhamento": "Macarrão ao sugo",
-        "salada": "Salada de alface",
-        "sobremesa": "Pudim romeu e julieta",
+        "guarnicao": "Carne em cubos com legumes",
+        "guarnicao_pvt": "Puchero vegetariano",
+        "acompanhamento": "Couve ao alho",
+        "salada": "Salada de tomate",
+        "sobremesa": "Melancia",
         "outros": [
           "Minipão",
           "refresco"
         ],
         "calories": 900,
+        "meal_type": "A"
+      },
+      "jantar": {
+        "opcoes": [
+          "Arroz",
+          "arroz integral",
+          "feijão carioca"
+        ],
+        "guarnicao": "Almôndegas ao molho sugo",
+        "guarnicao_pvt": "PVT mexicano",
+        "acompanhamento": "Polenta",
+        "salada": "Salada de acelga",
+        "sobremesa": "Sagu",
+        "outros": [
+          "Minipão",
+          "refresco"
+        ],
+        "calories": 1015,
         "meal_type": "J"
       }
     },
@@ -127,37 +127,37 @@
       "almoco": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Filé de peito de frango com molho de azeitona verde",
-        "guarnicao_pvt": "Soja com molho vinagrete",
-        "acompanhamento": "Couve-flor sauté",
-        "salada": "Salada de tomate",
-        "sobremesa": "Biscoito de chocolate",
+        "guarnicao": "Sobrecoxa de frango com molho de azeitonas",
+        "guarnicao_pvt": "PVT com azeitonas",
+        "acompanhamento": "Creme de milho",
+        "salada": "Salada de agrião",
+        "sobremesa": "Minibolo",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 880,
+        "calories": 825,
         "meal_type": "A"
       },
       "jantar": {
         "opcoes": [
           "Arroz",
-          "feijão",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Cupim com molho de ervas",
-        "guarnicao_pvt": "PVT com mandioquinha",
-        "acompanhamento": "Cenoura com ervilha",
-        "salada": "Salada de rúcula",
-        "sobremesa": "Maçã",
+        "guarnicao": "Bife de contrafilé com molho roti",
+        "guarnicao_pvt": "Soja com vinagrete",
+        "acompanhamento": "Repolho refogado",
+        "salada": "Salada de  alface",
+        "sobremesa": "Bananada",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 905,
+        "calories": 1020,
         "meal_type": "J"
       }
     },
@@ -167,37 +167,37 @@
       "almoco": {
         "opcoes": [
           "Arroz",
-          "feijão preto",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Carne em cubos",
-        "guarnicao_pvt": "Bobó vegetariano",
-        "acompanhamento": "Berinjela com passas e tomate",
-        "salada": "Salada de alface",
-        "sobremesa": "Banana",
+        "guarnicao": "Almôndegas com molho barbecue",
+        "guarnicao_pvt": "Almôndegas de PVT",
+        "acompanhamento": "Batata rústica",
+        "salada": "Salada de repolho",
+        "sobremesa": "Melão",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 885,
+        "calories": 825,
         "meal_type": "A"
       },
       "jantar": {
         "opcoes": [
           "Arroz",
-          "feijão preto",
-          "arroz integral"
+          "arroz integral",
+          "feijão carioca"
         ],
-        "guarnicao": "Copa lombo com molho de limão",
-        "guarnicao_pvt": "Bolinho de PVT",
-        "acompanhamento": "Batata rústica",
-        "salada": "Salada de agrião",
-        "sobremesa": "Cocada branca",
+        "guarnicao": "Frango em tiras com molho mostarda",
+        "guarnicao_pvt": "Cassoulet vegetariano",
+        "acompanhamento": "Chuchu com salsa",
+        "salada": "Salada de alface",
+        "sobremesa": "Bananada",
         "outros": [
           "Minipão",
           "refresco"
         ],
-        "calories": 895,
+        "calories": 800,
         "meal_type": "J"
       }
     }

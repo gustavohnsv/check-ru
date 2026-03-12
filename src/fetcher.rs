@@ -9,11 +9,23 @@ pub async fn update_cache(base_path: &Path, unit_code: u32) -> Result<(), Box<dy
         .cookie_store(true)
         .build()?;
     
-    // 1. Visitar a página principal para estabelecer a sessão (JSESSIONID)
+    // 1. Visitar a página principal para estabelecer a sessão (JSESSIONID) e tentar pegar o nome via HTML
     let home_url = format!("https://uspdigital.usp.br/rucard/Jsp/cardapioSAS.jsp?codrtn={}", unit_code);
-    let _ = client.get(home_url).send().await?;
+    let home_resp = client.get(home_url).send().await?.text().await?;
 
-    // 2. Buscar o nome do restaurante via DWR (obterRestauranteUsp)
+    let mut restaurant_name = get_hardcoded_name_fallback(unit_code);
+    
+    // Tentar extrair o nome do restaurante do HTML (caso esteja lá, embora costume ser via JS)
+    // Mas o usuário mencionou procurar por tituloRestaurante
+    let re_html_name = Regex::new(r#"class="tituloRestaurante"[^>]*>\s*(.*?)\s*</"#).unwrap();
+    if let Some(cap) = re_html_name.captures(&home_resp) {
+        let n = cap[1].to_string();
+        if !n.is_empty() && n != "null" && !n.contains("<span") {
+             restaurant_name = decode_unicode_escapes(&n);
+        }
+    }
+
+    // 2. Buscar o nome do restaurante via DWR (obterRestauranteUsp) - Método principal
     let name_url = "https://uspdigital.usp.br/rucard/dwr/call/plaincall/CardapioControleDWR.obterRestauranteUsp.dwr";
     let name_body = format!(
 "callCount=1
@@ -35,18 +47,23 @@ scriptSessionId=", unit_code, unit_code);
         .text()
         .await?;
 
-    let mut restaurant_name = get_hardcoded_name_fallback(unit_code);
-    let re_name = Regex::new(r#"nomrtn:"(.*?)"#).unwrap();
-    if let Some(cap) = re_name.captures(&name_resp) {
+    let re_dwr_name = Regex::new(r#"nomrtn:"(.*?)"#).unwrap();
+    if let Some(cap) = re_dwr_name.captures(&name_resp) {
         let n = cap[1].to_string();
         if n != "null" && !n.is_empty() {
-            restaurant_name = n.replace("&iacute;", "í")
+            let decoded = decode_unicode_escapes(&n)
+                .replace("&iacute;", "í")
                 .replace("&aacute;", "á")
                 .replace("&otilde;", "õ")
                 .replace("&Ccedil;", "Ç")
                 .replace("&ccedil;", "ç")
                 .replace("&atilde;", "ã")
+                .replace("&Oacute;", "Ó")
+                .replace("&oacute;", "ó")
                 .to_string();
+            if !decoded.is_empty() {
+                restaurant_name = decoded;
+            }
         }
     }
 
@@ -84,24 +101,22 @@ scriptSessionId=", unit_code, unit_code);
 
 fn get_hardcoded_name_fallback(id: u32) -> String {
     match id {
-        1 => "Central - São Paulo".to_string(),
-        2 => "Prefeitura - São Paulo".to_string(),
-        3 => "Física - São Paulo".to_string(),
-        4 => "Química - São Paulo".to_string(),
-        5 => "Bauru".to_string(),
-        6 => "São Carlos".to_string(),
-        7 => "Prefeitura - Piracicaba".to_string(),
-        8 => "EACH - São Paulo".to_string(),
-        9 => "Ribeirão Preto".to_string(),
-        11 => "Direito - São Paulo".to_string(),
-        12 => "Enfermagem - São Paulo".to_string(),
-        13 => "Poli - São Paulo".to_string(),
-        14 => "IPEN - São Paulo".to_string(),
-        17 => "Pirassununga".to_string(),
-        18 => "Medicina - São Paulo".to_string(),
-        19 => "Saúde Pública - São Paulo".to_string(),
-        20 => "Lorena".to_string(),
-        23 => "Oceanográfico - São Paulo".to_string(),
+        5 => "Restaurante das Químicas (São Paulo - Butantã)".to_string(),
+        6 => "Restaurante Central (São Paulo - Butantã)".to_string(),
+        7 => "Restaurante PUSP-C (São Paulo - Butantã)".to_string(),
+        8 => "Restaurante da Física (São Paulo - Butantã)".to_string(),
+        9 => "Escola de Enfermagem (São Paulo - Quadrilátero Saúde)".to_string(),
+        11 => "Faculdade de Direito (São Paulo - Largo São Francisco)".to_string(),
+        13 => "EACH (São Paulo - Leste)".to_string(),
+        14 => "Faculdade de Saúde Pública (São Paulo - Quadrilátero Saúde)".to_string(),
+        15 => "Restaurante de Piracicaba (ESALQ)".to_string(),
+        16 => "Restaurante de Pirassununga".to_string(),
+        17 => "Restaurante de Lorena (EEL)".to_string(),
+        18 => "Faculdade de Medicina (São Paulo - Pinheiros)".to_string(),
+        19 => "Restaurante Universitário de Ribeirão Preto".to_string(),
+        20 => "Restaurante Universitário de Bauru".to_string(),
+        21 => "Restaurante de São Carlos (Área 1)".to_string(),
+        22 => "Restaurante de São Carlos (Área 2)".to_string(),
         _ => format!("Restaurante (ID {})", id),
     }
 }

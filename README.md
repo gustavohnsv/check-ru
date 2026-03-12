@@ -54,26 +54,24 @@ Localizado na raiz do projeto:
 
 ## 🏢 Unidades Suportadas (`unit_code`)
 
-| ID | Unidade | Compatibilidade |
-|:---:|:--- |:---:|
-| 1 | Central - São Paulo | Alta |
-| 2 | Prefeitura - São Paulo | Alta |
-| 3 | Física - São Paulo | Alta |
-| 4 | Química - São Paulo | Alta |
-| 5 | Bauru | Média |
-| 6 | São Carlos | Média |
-| 7 | Prefeitura - Piracicaba | Média |
-| 8 | EACH - São Paulo | Alta |
-| 9 | Ribeirão Preto | Média |
-| 11 | Direito - São Paulo | Alta |
-| 12 | Enfermagem - São Paulo | Alta |
-| 13 | Poli - São Paulo | Alta |
-| 14 | IPEN - São Paulo | Alta |
-| 17 | Pirassununga | Média |
-| 18 | Medicina - São Paulo | Alta |
-| 19 | Saúde Pública - São Paulo | Alta |
-| 20 | Lorena | Média |
-| 23 | Oceanográfico - São Paulo | Alta |
+| ID | Unidade | Campus | Compatibilidade |
+|:---:|:--- |:---:|:---:|
+| 5 | Restaurante das Químicas | Butantã | Alta |
+| 6 | Restaurante Central | Butantã | Alta |
+| 7 | Restaurante PUSP-C | Butantã | Alta |
+| 8 | Restaurante da Física | Butantã | Alta |
+| 9 | Escola de Enfermagem | Quadrilátero Saúde | Alta |
+| 11 | Faculdade de Direito | Largo São Francisco | Alta |
+| 13 | EACH | USP Leste | Alta |
+| 14 | Faculdade de Saúde Pública | Quadrilátero Saúde | Alta |
+| 15 | Restaurante de Piracicaba (ESALQ) | Piracicaba | Média |
+| 16 | Restaurante de Pirassununga | Pirassununga | Média |
+| 17 | Restaurante de Lorena (EEL) | Lorena | Média |
+| 18 | Faculdade de Medicina | Pinheiros | Alta |
+| 19 | RU de Ribeirão Preto | Ribeirão Preto | Média |
+| 20 | RU de Bauru | Bauru | Média |
+| 21 | Restaurante de São Carlos (Área 1) | São Carlos | Média |
+| 22 | Restaurante de São Carlos (Área 2) | São Carlos | Média |
 
 **Legenda:**
 - **Alta:** Cardápio segue o padrão rigoroso (Opções, Guarnição, PVT, etc.).
